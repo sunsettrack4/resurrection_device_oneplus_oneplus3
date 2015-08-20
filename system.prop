@@ -24,6 +24,7 @@ audio.offload.multiple.enabled=true
 audio.offload.min.duration.secs=30
 af.fast_track_multiplier=1
 audio_hal.period_size=160
+ro.audio.flinger_standbytime_ms=300
 
 # Bluetooth
 bt.max.hfpclient.connections=1
