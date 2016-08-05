@@ -2436,10 +2436,6 @@
         <path name="handset-mic" />
     </path>
 
-    <path name="camcorder-mic">
-        <path name="handset-mic" />
-    </path>
-
     <path name="hdmi-tx">
         <path name="handset-mic" />
     </path>
@@ -2564,7 +2560,14 @@
         <ctl name="ADC5 Volume" value="11" />
         <ctl name="AMIC_3_4 PWR MODE" value="HIGH_PERF" />
         <ctl name="AMIC_5_6 PWR MODE" value="HIGH_PERF" />
+        <ctl name="DEC4 Volume" value="96" />
+        <ctl name="DEC5 Volume" value="96" />
 <!-- #endif -->
+    </path>
+    <path name="camcorder-mic">
+        <path name="speaker-stereo-dmic-ef" />
+        <ctl name="DEC4 Volume" value="96" />
+        <ctl name="DEC5 Volume" value="96" />
     </path>
 
     <path name="voice-dmic-ef-tmus">
