@@ -31,9 +31,6 @@
 extern "C" {
 #endif
 
-#ifndef RIL_QCOM_VERSION
-#define RIL_QCOM_VERSION 3
-#endif
 
 #if defined(ANDROID_SIM_COUNT_2)
 #define SIM_COUNT 2
